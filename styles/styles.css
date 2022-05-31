@@ -1,0 +1,51 @@
+*, ::before, ::after {
+  border: 1px dotted black;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-gray: hsl(212, 45%, 89%);
+  --gray-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--light-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
