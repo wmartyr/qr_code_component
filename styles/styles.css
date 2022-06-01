@@ -1,7 +1,6 @@
 *,
 ::before,
 ::after {
-  /* border: 1px dotted black; */
   margin: 0;
   padding: 0;
 }
@@ -30,7 +29,6 @@ body {
   width: 300px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
   gap: 20px;
   align-items: center;
   padding: 20px;
@@ -48,9 +46,10 @@ p {
 }
 
 .main-text {
+  font-family: 'Outfit', sans-serif;
   color: var(--dark-blue);
-  font-family: 'Outfit', sans-serif; font-weight: 700;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .secondary-text {
@@ -59,9 +58,9 @@ p {
   margin: 10px;
 }
 
-
-
 .attribution {
+  font-family: 'Outfit', sans-serif;
+  color: var(--dark-blue);
   font-size: 11px;
   text-align: center;
 }
