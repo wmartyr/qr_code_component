@@ -28,8 +28,7 @@ Screenshot of the final page.
 ### Links
 
 - Solution URL: [https://github.com/wmartyr/qr_code_component](https://github.com/wmartyr/qr_code_component)
-- Live Site URL: [https://wmartyr.github.io/
-qr_code_component](https://wmartyr.github.io/qr_code_component)
+- Live Site URL: [https://wmartyr.github.io/qr_code_component](https://wmartyr.github.io/qr_code_component)
 
 ## My process
 
